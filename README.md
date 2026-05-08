@@ -11,7 +11,7 @@
 
 Official implementation of **GSDG-Net** for hyperspectral image classification.
 
-**Authors:** Lianlian Zhao, Lina Yang<sup>*</sup>, Lianhui Liang<sup>*</sup>, Xinzhang Wu, and Haoyan Yang
+**Authors:** Lianlian Zhao, Lina Yang*, Lianhui Liang*, Xinzhang Wu, and Haoyan Yang
 
 <sup>*</sup> Corresponding authors.
 
@@ -190,6 +190,5 @@ result_output:
 
 ## Notes
 
-- The GSDG model implementation and pretrained weights are intentionally not included in this initial public release.
 - Large `.mat` datasets are distributed through Google Drive instead of git.
 - Result folders and model checkpoints are ignored by default to keep the repository lightweight.
