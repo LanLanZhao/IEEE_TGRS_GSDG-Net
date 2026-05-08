@@ -1,0 +1,8 @@
+numpy
+scipy
+hdf5storage
+matplotlib
+scikit-learn
+scikit-image
+torch
+torchvision
