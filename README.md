@@ -1,8 +1,8 @@
 <div align="center">
 
-<h1>GSDG-Net</h1>
-
-<h3>Geometric Spatial Prior-Guided Dynamic Graph Learning with Fourier-Modulated Superpixels for Hyperspectral Image Classification</h3>
+<h1>
+  <a href="https://ieeexplore.ieee.org/document/11515211">Geometric Spatial Prior-Guided Dynamic Graph Learning With Fourier-Modulated Superpixels for Hyperspectral Image Classification</a>
+</h1>
 
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
@@ -31,6 +31,31 @@
 <p align="center">
   <img src="assets/Graph2.png" alt="GSDG-Net architecture overview" width="100%">
 </p>
+
+---
+
+## Citation
+
+If this repository is helpful for your research, please cite:
+
+```bibtex
+@ARTICLE{11515211,
+  author={Zhao, Lianlian and Yang, Lina and Liang, Lianhui and Wu, Xinzhang and Yang, Haoyan},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  title={Geometric Spatial Prior-Guided Dynamic Graph Learning With Fourier-Modulated Superpixels for Hyperspectral Image Classification},
+  year={2026},
+  volume={64},
+  number={},
+  pages={5513417-5513417},
+  doi={10.1109/TGRS.2026.3692393}
+}
+```
+
+---
+
+## Contact Information
+
+For questions about the code or paper, please contact: [lanlanzhao@yeah.net](mailto:lanlanzhao@yeah.net)
 
 ---
 
@@ -191,26 +216,6 @@ result_output:
 | Salinas | 97.91 ± 0.85 | 98.90 ± 0.36 | 97.68 ± 0.95 |
 | Utopia Planitia | 91.32 ± 1.99 | 94.05 ± 1.97 | 88.09 ± 2.68 |
 | Xuzhou | 95.92 ± 0.84 | 98.32 ± 0.54 | 94.87 ± 1.05 |
-
----
-
-## Citation
-
-If this repository is helpful for your research, please cite:
-
-```bibtex
-@ARTICLE{11515211,
-  author={Zhao, Lianlian and Yang, Lina and Liang, Lianhui and Wu, Xinzhang and Yang, Haoyan},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  title={Geometric Spatial Prior-Guided Dynamic Graph Learning With Fourier-Modulated Superpixels for Hyperspectral Image Classification},
-  year={2026},
-  volume={64},
-  number={},
-  pages={5513417-5513417},
-  keywords={Modeling;Pixel;Convolutional neural networks;Hyperspectral imaging;Image classification;Labeling;IP networks;Modules (abstract algebra);Training;Educational institutions;Convolutional neural network (CNN);Fourier transform;graph attention network (GAT);hyperspectral image classification (HSIC);superpixel segmentation},
-  doi={10.1109/TGRS.2026.3692393}
-}
-```
 
 ---
 
