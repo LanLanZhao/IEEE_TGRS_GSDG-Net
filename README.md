@@ -7,6 +7,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![IEEE TGRS](https://img.shields.io/badge/IEEE%20TGRS-2026-00629B?style=flat-square)](https://doi.org/10.1109/TGRS.2026.3692393)
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTGRS.2026.3692393-B31B1B?style=flat-square)](https://doi.org/10.1109/TGRS.2026.3692393)
 [![Task](https://img.shields.io/badge/Task-Hyperspectral%20Image%20Classification-2E8B57?style=flat-square)](#)
 [![Model](https://img.shields.io/badge/Model-GSDG--Net-6A5ACD?style=flat-square)](#)
 
@@ -17,7 +19,7 @@
   <a href="#results-reported-in-the-paper">Results</a>
 </p>
 
-**Authors:** Lianlian Zhao, Lina Yang;, Lianhui Liang;, Xinzhang Wu, and Haoyan Yang
+**Authors:** Lianlian Zhao, <strong>Lina Yang</strong>, <strong>Lianhui Liang</strong>, Xinzhang Wu, and Haoyan Yang
 
 
 </div>
@@ -42,7 +44,7 @@ IEEE_TGRS_GSDG-Net/
 |   |-- SLIC.py                  # LDA-SLIC superpixel generation and spatial prior
 |   `-- create_graph.py          # Label and mask construction
 |-- Model/
-|   `-- README.md                # Model release placeholder
+|   `-- GSDG.py                  # GSDG-Net model implementation
 |-- assets/
 |   `-- Graph2.png               # GSDG-Net architecture overview
 |-- HyperLoad.py                 # Dataset loader
@@ -82,12 +84,14 @@ Place the downloaded `.mat` files under:
 dataset/
 ```
 
-Minimal Indian Pines example:
+Included example files:
 
 ```text
 dataset/
 |-- indian_pines_corrected.mat
-`-- indian_pines_gt.mat
+|-- indian_pines_gt.mat
+|-- Salinas_corrected.mat
+`-- Salinas_gt.mat
 ```
 
 ---
@@ -139,7 +143,7 @@ The following table summarizes the datasets included in the public Google Drive 
 1. Download the required `.mat` files from the Google Drive link above.
 2. Put the files into `dataset/`.
 3. Edit `Config/config.yaml` if needed.
-4. After the GSDG model implementation is released, run:
+4. Run:
 
 ```bash
 python main.py --path-config Config/config.yaml --iterations 10
@@ -190,7 +194,27 @@ result_output:
 
 ---
 
+## Citation
+
+If this repository is helpful for your research, please cite:
+
+```bibtex
+@ARTICLE{11515211,
+  author={Zhao, Lianlian and Yang, Lina and Liang, Lianhui and Wu, Xinzhang and Yang, Haoyan},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  title={Geometric Spatial Prior-Guided Dynamic Graph Learning With Fourier-Modulated Superpixels for Hyperspectral Image Classification},
+  year={2026},
+  volume={64},
+  number={},
+  pages={5513417-5513417},
+  keywords={Modeling;Pixel;Convolutional neural networks;Hyperspectral imaging;Image classification;Labeling;IP networks;Modules (abstract algebra);Training;Educational institutions;Convolutional neural network (CNN);Fourier transform;graph attention network (GAT);hyperspectral image classification (HSIC);superpixel segmentation},
+  doi={10.1109/TGRS.2026.3692393}
+}
+```
+
+---
+
 ## Notes 
 
-- Large `.mat` datasets are distributed through Google Drive instead of git.
+- Additional large `.mat` datasets are distributed through Google Drive instead of git.
 - Result folders and model checkpoints are ignored by default to keep the repository lightweight.

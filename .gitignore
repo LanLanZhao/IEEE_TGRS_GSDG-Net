@@ -5,11 +5,12 @@ __pycache__/
 Results/
 ResultsModel/
 Weights/
-Model/GSDG.py
 
 dataset/*.mat
 !dataset/indian_pines_corrected.mat
 !dataset/indian_pines_gt.mat
+!dataset/Salinas_corrected.mat
+!dataset/Salinas_gt.mat
 paper_text_extract.txt
 
 *_segmentation_iter*.png
