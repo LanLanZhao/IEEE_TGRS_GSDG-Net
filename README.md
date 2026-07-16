@@ -26,12 +26,6 @@
 
 ---
 
-## Architecture Overview
-
-<p align="center">
-  <img src="assets/Graph2.png" alt="GSDG-Net architecture overview" width="100%">
-</p>
-
 ---
 
 ## Citation
