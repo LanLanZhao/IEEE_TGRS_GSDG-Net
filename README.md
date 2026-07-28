@@ -215,3 +215,10 @@ result_output:
 
 - Additional large `.mat` datasets are distributed through Google Drive instead of git.
 - Result folders and model checkpoints are ignored by default to keep the repository lightweight.
+
+
+---
+
+## Acknowledgements
+
+This project references the implementation of [quanweiliu/WFCG](https://github.com/quanweiliu/WFCG). We sincerely thank the authors for making their work publicly available.
